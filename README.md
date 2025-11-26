@@ -1,14 +1,14 @@
 # AQI Prediction Model using Machine Learning
 
 
-📌# Project Overview
+## **📌 Project Overview**
 
 This project focuses on building a Machine Learning model to predict Air Quality Index (AQI) using various atmospheric pollutant concentrations. By analyzing pollutant data such as PM2.5, PM10, NO₂, CO, and SO₂, the model estimates AQI with high accuracy.
 
 This project supports environmental monitoring, smart city systems, and pollution forecasting.
 
 📊 Sample Visualization
-📁 Dataset Information
+## **📁 Dataset Information**
 
 Dataset: air quality data.csv
 Rows: Multiple city-wise observations
@@ -24,7 +24,7 @@ AQI (Target)
 
 AQI Bucket (Categorical)
 
-🧽 Data Preprocessing Steps
+## **🧽 Data Preprocessing Steps**
 
 Removed duplicates
 
@@ -38,20 +38,20 @@ Performed train-test split (75:25)
 
 Normalized feature values when required
 
-🧠 Machine Learning Models Used
-1. K-Nearest Neighbors Regressor (KNN)
+## **🧠 Machine Learning Models Used**
+**1. K-Nearest Neighbors Regressor (KNN)**
 
 Baseline model
 
 Easy to implement
 
-2. Decision Tree Regressor
+**2. Decision Tree Regressor**
 
 Handles non-linearity
 
 Can capture pollutant interactions
 
-3. Random Forest Regressor
+**3. Random Forest Regressor**
 
 Best accuracy
 
@@ -59,7 +59,7 @@ Lowest RMSE
 
 High generalization performance
 
-📈 Model Evaluation Metrics
+## **📈 Model Evaluation Metrics**
 
 Models were evaluated using:
 
@@ -74,7 +74,7 @@ RMSE Test Data = ...
 R² score (Train) = ...
 R² score (Test) = ...
 
-🛠️ Technologies & Libraries
+## **🛠️ Technologies & Libraries**
 
 Python
 
@@ -90,7 +90,7 @@ Scikit-learn
 
 Jupyter Notebook
 
-🚀 How to Run the Project
+## **🚀 How to Run the Project**
 1. Clone the Repository
 git clone https://github.com/<your-username>/AQI-Prediction-Model.git
 
@@ -104,7 +104,7 @@ jupyter notebook "AQI Prediction Model.ipynb"
 
 Place air quality data.csv in the project directory.
 
-📌 Project Structure
+## **📌 Project Structure**
 AQI-Prediction-Model/
 │── air quality data.csv
 │── AQI Prediction Model.ipynb
@@ -112,7 +112,7 @@ AQI-Prediction-Model/
 │── requirements.txt
 └── visuals/
 
-📈 Future Enhancements
+## **📈 Future Enhancements**
 
 Hyperparameter tuning (GridSearch, RandomSearch)
 
@@ -122,7 +122,7 @@ Real-time AQI dashboard (Streamlit)
 
 Model deployment with FastAPI
 
-👩‍💻 Author
+## **👩‍💻 Author**
 
 Shaik Neeha Anzum
 AI & Machine Learning Enthusiast
