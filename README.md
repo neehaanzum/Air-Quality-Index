@@ -1,7 +1,7 @@
 # AQI Prediction Model using Machine Learning
 
 
-📌 Project Overview
+📌# Project Overview
 
 This project focuses on building a Machine Learning model to predict Air Quality Index (AQI) using various atmospheric pollutant concentrations. By analyzing pollutant data such as PM2.5, PM10, NO₂, CO, and SO₂, the model estimates AQI with high accuracy.
 
